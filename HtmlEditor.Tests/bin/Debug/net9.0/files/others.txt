@@ -1,0 +1,25 @@
+load sample.html
+print-tree
+append p p1 body "This is a new paragraph with Erro."
+append p p3 body "No error."
+print-tree
+insert div div1 p3 title "Header Div"
+print-tree
+edit-id p1 p1-new
+print-tree
+edit-text p3 "Updated paragraph content."
+print-tree
+delete item2
+print-tree
+undo
+print-tree
+redo
+print-tree
+editor-list
+edit anotherfile.html
+load anotherfile.html
+edit anotherfile.html
+dir-tree
+dir-indent 4
+dir-tree
+exit

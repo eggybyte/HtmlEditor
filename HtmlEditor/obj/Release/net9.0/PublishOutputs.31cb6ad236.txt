@@ -1,0 +1,5 @@
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab2\HtmlEditorLab\release\HtmlEditor\HtmlEditor.exe
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab2\HtmlEditorLab\release\HtmlEditor\HtmlEditor.dll
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab2\HtmlEditorLab\release\HtmlEditor\HtmlEditor.deps.json
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab2\HtmlEditorLab\release\HtmlEditor\HtmlEditor.runtimeconfig.json
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab2\HtmlEditorLab\release\HtmlEditor\HtmlEditor.pdb

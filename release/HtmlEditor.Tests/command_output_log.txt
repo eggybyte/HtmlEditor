@@ -1,0 +1,248 @@
+Command: init
+Editor initialized with empty HTML template.
+
+Command: print-tree
+html
+├── head
+│   └── title
+└── body
+
+
+Command: print-indent
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body></body>
+</html>
+
+Command: append script script head
+Element 'script' appended to 'head'.
+
+Command: append ul list body Shoppiing:
+Element 'list' appended to 'body'.
+
+Command: append li item3 list item3
+Element 'item3' appended to 'list'.
+
+Command: insert li item2 item3 item2
+Element 'item2' inserted before 'item3'.
+
+Command: insert li item1 item2 item1
+Element 'item1' inserted before 'item2'.
+
+Command: insert ol list2 list shopping_list2:
+Element 'list2' inserted before 'list'.
+
+Command: append li apple list2 apple
+Element 'apple' appended to 'list2'.
+
+Command: insert li banana apple banann
+Element 'banana' inserted before 'apple'.
+
+Command: insert li orange banana oraange
+Element 'orange' inserted before 'banana'.
+
+Command: edit-id list unordered-list
+ID edited.
+
+Command: edit-id item1 item2
+Error: item2 already exists.
+
+Command: edit-text script ...
+Text of element 'script' updated.
+
+Command: edit-text title test
+Text of element 'title' updated.
+
+Command: edit-text item3
+Text of element 'item3' updated.
+
+Command: print-indent 1
+<html>
+ <head>
+  <title>test</title>
+  <script id="script">...</script>
+ </head>
+ <body>
+  <ol id="list2">shopping_list2:
+   <li id="orange">oraange</li>
+   <li id="banana">banann</li>
+   <li id="apple">apple</li>
+  </ol>
+  <ul id="unordered-list">Shoppiing:
+   <li id="item1">item1</li>
+   <li id="item2">item2</li>
+   <li id="item3"></li>
+  </ul>
+ </body>
+</html>
+
+Command: delete item3
+Element 'item3' deleted.
+
+Command: delete apple
+Element 'apple' deleted.
+
+Command: delete list2
+Element 'list2' deleted.
+
+Command: print-tree
+html
+├── head
+│   ├── title
+│   │   └── test
+│   └── script#script
+│       └── ...
+└── body
+    └── ul#unordered-list
+        └── Shoppiing:
+        ├── li#item1
+        │   └── item1
+        └── li#item2
+            └── item2
+
+
+Command: print-indent 1
+<html>
+ <head>
+  <title>test</title>
+  <script id="script">...</script>
+ </head>
+ <body>
+  <ul id="unordered-list">Shoppiing:
+   <li id="item1">item1</li>
+   <li id="item2">item2</li>
+  </ul>
+ </body>
+</html>
+
+Command: undo
+Undo completed.
+
+Command: undo
+Undo completed.
+
+Command: undo
+Undo completed.
+
+Command: redo
+Redo completed.
+
+Command: print-tree
+html
+├── head
+│   ├── title
+│   │   └── test
+│   └── script#script
+│       └── ...
+└── body
+    ├── ol#list2
+    │   └── shopping_list2:
+    │   ├── li#orange
+    │   │   └── oraange
+    │   ├── li#banana
+    │   │   └── banann
+    │   └── li#apple
+    │       └── apple
+    └── ul#unordered-list
+        └── Shoppiing:
+        ├── li#item1
+        │   └── item1
+        └── li#item2
+            └── item2
+
+
+Command: print-indent
+<html>
+  <head>
+    <title>test</title>
+    <script id="script">...</script>
+  </head>
+  <body>
+    <ol id="list2">shopping_list2:
+      <li id="orange">oraange</li>
+      <li id="banana">banann</li>
+      <li id="apple">apple</li>
+    </ol>
+    <ul id="unordered-list">Shoppiing:
+      <li id="item1">item1</li>
+      <li id="item2">item2</li>
+    </ul>
+  </body>
+</html>
+
+Command: spell-check
+Element 'list2' - Misspelled word: 'shopping'
+  Context: 'shopping_list2:'
+  Position: Offset 0, Length 8
+  Suggestions: Shopping
+
+
+Element 'orange' - Misspelled word: 'oraange'
+  Context: 'oraange'
+  Position: Offset 0, Length 7
+  Suggestions: frange, frangé, grange, orango, orante, orbane, orbante, orfane, organze, oriane
+
+
+Element 'banana' - Misspelled word: 'banann'
+  Context: 'banann'
+  Position: Offset 0, Length 6
+  Suggestions: banan, banana, banane, banani, banano, bananu, banană, banan n
+
+
+Element 'unordered-list' - Misspelled word: 'Shoppiing'
+  Context: 'Shoppiing:'
+  Position: Offset 0, Length 9
+  Suggestions: Shopping, Shop piing
+
+
+
+
+Command: save __test_init.html
+HTML saved.
+
+Command: read __test_init.html
+HTML file read.
+
+Command: print-tree
+html
+├── head
+│   ├── title
+│   │   └── test
+│   └── script#script
+│       └── ...
+└── body
+    ├── ol#list2
+    │   ├── li#orange
+    │   │   └── oraange
+    │   ├── li#banana
+    │   │   └── banann
+    │   └── li#apple
+    │       └── apple
+    └── ul#unordered-list
+        ├── li#item1
+        │   └── item1
+        └── li#item2
+            └── item2
+
+
+Command: print-indent
+<html>
+  <head>
+    <title>test</title>
+    <script id="script">...</script>
+  </head>
+  <body>
+    <ol id="list2">
+      <li id="orange">oraange</li>
+      <li id="banana">banann</li>
+      <li id="apple">apple</li>
+    </ol>
+    <ul id="unordered-list">
+      <li id="item1">item1</li>
+      <li id="item2">item2</li>
+    </ul>
+  </body>
+</html>
+

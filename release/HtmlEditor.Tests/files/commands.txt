@@ -1,0 +1,24 @@
+dir-tree
+editor-list
+load sample.html
+editor-list
+append p p1 body "Shoppiing"
+editor-list
+edit test\anotherfile.html
+load test\anotherfile.html
+editor-list
+dir-tree
+edit sample.html
+editor-list
+print-indent
+editor-list
+dir-tree
+dir-indent 4
+close
+close
+append p p1 body "Sleping"
+print-tree
+dir-tree
+save
+dir-tree
+exit

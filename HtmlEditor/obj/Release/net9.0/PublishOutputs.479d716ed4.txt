@@ -1,0 +1,5 @@
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab1\HtmlEditorLab\HtmlEditor\release\HtmlEditor\net9.0\publish\HtmlEditor.exe
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab1\HtmlEditorLab\HtmlEditor\release\HtmlEditor\net9.0\publish\HtmlEditor.dll
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab1\HtmlEditorLab\HtmlEditor\release\HtmlEditor\net9.0\publish\HtmlEditor.deps.json
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab1\HtmlEditorLab\HtmlEditor\release\HtmlEditor\net9.0\publish\HtmlEditor.runtimeconfig.json
+C:\EggyByte\Coureses\Fudan\2024 fall\Software Design\lab1\HtmlEditorLab\HtmlEditor\release\HtmlEditor\net9.0\publish\HtmlEditor.pdb

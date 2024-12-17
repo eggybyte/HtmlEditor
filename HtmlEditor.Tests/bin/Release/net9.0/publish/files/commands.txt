@@ -1,0 +1,34 @@
+init
+print-tree
+print-indent
+append script script head
+append ul list body Shoppiing:
+append li item3 list item3
+insert li item2 item3 item2
+insert li item1 item2 item1
+insert ol list2 list shopping_list2:
+append li apple list2 apple
+insert li banana apple banann
+insert li orange banana oraange
+edit-id list unordered-list
+edit-id item1 item2
+edit-text script ...
+edit-text title test
+edit-text item3
+print-indent 1
+delete item3
+delete apple
+delete list2
+print-tree
+print-indent 1
+undo
+undo
+undo
+redo
+print-tree
+print-indent
+spell-check
+save __test_init.html
+read __test_init.html
+print-tree
+print-indent
